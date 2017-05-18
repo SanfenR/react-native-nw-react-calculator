@@ -15,8 +15,8 @@ module.exports = {
   debug: true,
   devtool: false,
   entry: [
-      'webpack/hot/only-dev-server',
-      './src/index.js'
+    'webpack/hot/only-dev-server',
+    './src/index.js'
   ],
   stats: {
     colors: true,
